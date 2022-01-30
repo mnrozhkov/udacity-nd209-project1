@@ -40,7 +40,7 @@ $ sudo apt-get upgrade -y
 ```sh
 $ mkdir -p ~/udacity/nd209/
 $ cd ~/udacity/nd209/
-$ git clone https://github.com/mnrozhkov/project_1 project_1
+$ git clone https://github.com/mnrozhkov/udacity-nd209-project1.git project_1
 ```
 
 #### Step 3 Compile the code
