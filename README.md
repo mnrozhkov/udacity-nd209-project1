@@ -54,13 +54,13 @@ $ make
 
 #### Step 4 Add the library path to the Gazebo plugin path  
 ```sh
-$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/~/udacity/nd209/project_1/build
+$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:$HOME/udacity/nd209/project_1/build
 ```
 
 #### Step 5 Run the Gazebo World file  
 ```sh
 $ cd ~/udacity/nd209/project_1/world/
-$ gazebo RobotLand.sdf
+$ gazebo RobotLand.sdf --verbose
 ```
 
 ### Output
